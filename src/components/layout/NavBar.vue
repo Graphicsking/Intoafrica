@@ -125,7 +125,7 @@ const navLinks = [
   { label: 'Our Ethics', href: '/ethics', type: 'route' },
   { label: 'What We Do', href: '#what-we-do', type: 'scroll' },
   { label: 'Purposeful Travel', href: '#travel', type: 'scroll' },
-  { label: 'Journeys', href: '#journeys', type: 'scroll' },
+  { label: 'Journeys', href: 'journeys', type: 'route' },
 ]
 
 const scrollToSection = (href) => {
