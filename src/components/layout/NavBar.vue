@@ -17,7 +17,18 @@
       <!-- Desktop Nav -->
       <ul class="hidden lg:flex items-center gap-7">
         <li v-for="link in navLinks" :key="link.label">
+          <RouterLink
+            v-if="link.type === 'route'"
+            :to="link.href"
+            :class="[
+              'text-sm font-medium transition-colors duration-300 hover:text-[#009857] cursor-pointer',
+              scrolled ? 'text-neutral-900' : 'text-white',
+            ]"
+          >
+            {{ link.label }}
+          </RouterLink>
           <a
+            v-else
             :href="link.href"
             :class="[
               'text-sm font-medium transition-colors duration-300 hover:text-[#009857] cursor-pointer',
@@ -70,8 +81,17 @@
         v-if="mobileOpen"
         class="lg:hidden bg-white border-t border-neutral-100 px-6 py-5 flex flex-col gap-4"
       >
+        <RouterLink
+          v-for="link in navLinks.filter((l) => l.type === 'route')"
+          :key="link.label"
+          :to="link.href"
+          class="text-sm font-medium text-neutral-900 hover:text-[#009857] transition-colors cursor-pointer"
+          @click="mobileOpen = false"
+        >
+          {{ link.label }}
+        </RouterLink>
         <a
-          v-for="link in navLinks"
+          v-for="link in navLinks.filter((l) => l.type === 'scroll')"
           :key="link.label"
           :href="link.href"
           class="text-sm font-medium text-neutral-900 hover:text-[#009857] transition-colors cursor-pointer"
@@ -100,12 +120,12 @@ const scrolled = ref(false)
 const mobileOpen = ref(false)
 
 const navLinks = [
-  { label: 'Home', href: '#home' },
-  { label: 'About', href: '#about' },
-  { label: 'Our Ethics', href: '#ethics' },
-  { label: 'What We Do', href: '#what-we-do' },
-  { label: 'Purposeful Travel', href: '#travel' },
-  { label: 'Journeys', href: '#journeys' },
+  { label: 'Home', href: '/', type: 'route' },
+  { label: 'About', href: '/about', type: 'route' },
+  { label: 'Our Ethics', href: '/ethics', type: 'route' },
+  { label: 'What We Do', href: '#what-we-do', type: 'scroll' },
+  { label: 'Purposeful Travel', href: '#travel', type: 'scroll' },
+  { label: 'Journeys', href: '#journeys', type: 'scroll' },
 ]
 
 const scrollToSection = (href) => {
