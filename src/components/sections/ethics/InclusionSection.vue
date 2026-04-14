@@ -7,7 +7,7 @@
     <div class="relative z-10 max-w-6xl mx-auto">
       <div class="text-center mb-12">
         <h2
-          class="font-bold text-[#111827] mb-4"
+          class="font-bold text-charcoal-900 mb-4"
           style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem)"
         >
           Inclusion & <span style="color: #c94e00">Non-Discrimination</span>
@@ -36,7 +36,10 @@
 
         <!-- Column 3: text + list + quote + CTA -->
         <div class="w-full lg:w-2/4 flex flex-col gap-5">
-          <p class="text-[#404040] text-sm leading-relaxed" style="font-family: 'Lato', sans-serif">
+          <p
+            class="text-neutral-700 text-sm leading-relaxed"
+            style="font-family: 'Lato', sans-serif"
+          >
             Youth Safaris welcomes participants and partners from diverse backgrounds. We are
             committed to:
           </p>
@@ -45,7 +48,7 @@
             <li v-for="(item, i) in commitments" :key="i" class="flex items-start gap-3">
               <PhSealCheck :size="20" color="#D97706" weight="fill" class="shrink-0 mt-0.5" />
               <span
-                class="text-[#404040] text-sm leading-relaxed"
+                class="text-neutral-700 text-sm leading-relaxed"
                 style="font-family: 'Lato', sans-serif"
                 >{{ item }}</span
               >
@@ -53,7 +56,7 @@
           </ul>
 
           <p
-            class="font-bold text-[#111827] leading-snug"
+            class="font-bold text-charcoal-900 leading-snug"
             style="font-family: 'Playfair Display', serif; font-size: clamp(1.3rem, 2.5vw, 1.6rem)"
           >
             Our programs focus on shared humanity, responsibility, and growth.

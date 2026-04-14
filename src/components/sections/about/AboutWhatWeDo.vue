@@ -9,12 +9,12 @@
       <!-- Section Title -->
       <div class="text-center mb-12">
         <h2
-          class="font-bold text-[#171717] text-4xl sm:text-5xl mb-3"
+          class="font-bold text-neutral-900 text-4xl sm:text-5xl mb-3"
           style="font-family: 'Playfair Display', serif"
         >
           What <span style="color: #c94e00">we</span> Do
         </h2>
-        <p class="text-[#737373] text-base" style="font-family: 'Lato', sans-serif">
+        <p class="text-neutral-500 text-base" style="font-family: 'Lato', sans-serif">
           We create guided programs that combine:
         </p>
       </div>

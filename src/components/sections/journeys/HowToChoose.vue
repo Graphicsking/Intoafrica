@@ -12,7 +12,7 @@
         >
           How to Choose Your Journey
         </h2>
-        <p class="text-[#525252] text-sm" style="font-family: 'Lato', sans-serif">
+        <p class="text-neutral-600 text-sm" style="font-family: 'Lato', sans-serif">
           You may choose a journey based on:
         </p>
       </div>
@@ -29,7 +29,10 @@
             <div class="w-12 h-12 rounded-full bg-[#009857] flex items-center justify-center">
               <component :is="item.icon" :size="22" color="#D4A96A" weight="regular" />
             </div>
-            <p class="text-[#404040] text-sm leading-snug" style="font-family: 'Lato', sans-serif">
+            <p
+              class="text-neutral-700 text-sm leading-snug"
+              style="font-family: 'Lato', sans-serif"
+            >
               {{ item.label }}
             </p>
           </div>
@@ -50,7 +53,10 @@
             <div class="w-12 h-12 rounded-full bg-[#009857] flex items-center justify-center">
               <component :is="item.icon" :size="22" color="#D4A96A" weight="regular" />
             </div>
-            <p class="text-[#404040] text-sm leading-snug" style="font-family: 'Lato', sans-serif">
+            <p
+              class="text-neutral-700 text-sm leading-snug"
+              style="font-family: 'Lato', sans-serif"
+            >
               {{ item.label }}
             </p>
           </div>
@@ -59,7 +65,7 @@
 
       <!-- Quote -->
       <p
-        class="text-center font-bold text-[#111827] leading-tight max-w-2xl mx-auto"
+        class="text-center font-bold text-charcoal-900 leading-tight max-w-2xl mx-auto"
         style="font-family: 'Playfair Display', serif; font-size: clamp(1.1rem, 2vw, 1.4rem)"
       >
         Each experience is clearly labelled to help you make an informed and comfortable choice.

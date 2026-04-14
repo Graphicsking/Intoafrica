@@ -3,12 +3,12 @@
     <div class="max-w-6xl mx-auto flex flex-col gap-10">
       <div class="text-center">
         <h2
-          class="font-bold text-[#111827] mb-2"
+          class="font-bold text-charcoal-900 mb-2"
           style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem)"
         >
           <span style="color: #c94e00">More</span> Than Travel
         </h2>
-        <p class="text-[#525252] text-sm" style="font-family: 'Lato', sans-serif">
+        <p class="text-neutral-600 text-sm" style="font-family: 'Lato', sans-serif">
           Every journey supports:
         </p>
       </div>
@@ -38,7 +38,7 @@
       </div>
 
       <p
-        class="text-center font-bold text-[#111827]"
+        class="text-center font-bold text-charcoal-900"
         style="font-family: 'Playfair Display', serif; font-size: clamp(1.2rem, 2.5vw, 1.6rem)"
       >
         Travel becomes a way to learn, reflect, and contribute meaningfully.

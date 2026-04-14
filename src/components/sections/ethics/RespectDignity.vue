@@ -13,7 +13,7 @@
         >
           Respect, Dignity & Boundaries
         </h2>
-        <p class="text-[#525252] text-sm leading-relaxed" style="font-family: 'Lato', sans-serif">
+        <p class="text-neutral-600 text-sm leading-relaxed" style="font-family: 'Lato', sans-serif">
           Youth Safaris programs are built on respect for each individual.<br />We do not permit:
         </p>
       </div>
@@ -56,7 +56,7 @@
 
       <!-- Bottom quote -->
       <p
-        class="text-center font-bold text-[#111827] leading-tight max-w-3xl mx-auto"
+        class="text-center font-bold text-charcoal-900 leading-tight max-w-3xl mx-auto"
         style="font-family: 'Playfair Display', serif; font-size: clamp(1.1rem, 2vw, 1.4rem)"
       >
         Adults engaging with our programs are expected to support learning with humility, care, and

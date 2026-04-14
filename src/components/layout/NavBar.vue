@@ -43,13 +43,13 @@
 
       <!-- CTA -->
       <div class="hidden lg:block">
-        <a
-          href="#"
+        <RouterLink
+          to="/support"
           class="bg-[#009857] text-white text-sm font-bold hover:bg-[#047748] transition-colors duration-200 flex items-center justify-center"
           style="width: 220px; height: 48px"
         >
           Support Our Work
-        </a>
+        </RouterLink>
       </div>
 
       <!-- Mobile toggle -->
@@ -99,13 +99,15 @@
         >
           {{ link.label }}
         </a>
-        <a
-          href="#"
+        <!-- Mobile menu CTA -->
+        <RouterLink
+          to="/support"
           class="bg-[#009857] text-white text-sm font-bold text-center hover:bg-[#047748] transition-colors flex items-center justify-center"
           style="height: 48px"
+          @click="mobileOpen = false"
         >
           Support Our Work
-        </a>
+        </RouterLink>
       </div>
     </transition>
   </nav>
@@ -123,9 +125,9 @@ const navLinks = [
   { label: 'Home', href: '/', type: 'route' },
   { label: 'About', href: '/about', type: 'route' },
   { label: 'Our Ethics', href: '/ethics', type: 'route' },
-  { label: 'What We Do', href: '#what-we-do', type: 'scroll' },
+  { label: 'What We Do', href: '/what-we-do', type: 'route' },
   { label: 'Purposeful Travel', href: '#travel', type: 'scroll' },
-  { label: 'Journeys', href: 'journeys', type: 'route' },
+  { label: 'Journeys', href: '/journeys', type: 'route' },
 ]
 
 const scrollToSection = (href) => {

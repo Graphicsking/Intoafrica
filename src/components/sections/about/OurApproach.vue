@@ -10,7 +10,7 @@
           <span style="color: #c2622a">Our</span>
           <span style="color: #1a1a1a"> Approach</span>
         </h2>
-        <p class="text-[#404040] text-sm" style="font-family: 'Lato', sans-serif">
+        <p class="text-neutral-700 text-sm" style="font-family: 'Lato', sans-serif">
           We work through a learning pathway that grows with the individual:
         </p>
       </div>

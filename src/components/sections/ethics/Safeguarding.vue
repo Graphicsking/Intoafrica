@@ -3,12 +3,12 @@
     <div class="max-w-6xl mx-auto">
       <div class="text-center mb-12">
         <h2
-          class="font-bold text-[#111827] mb-4"
+          class="font-bold text-charcoal-900 mb-4"
           style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem)"
         >
           <span style="color: #c94e00">Safeguarding</span> & Child Protection
         </h2>
-        <p class="text-[#525252] text-sm leading-relaxed" style="font-family: 'Lato', sans-serif">
+        <p class="text-neutral-600 text-sm leading-relaxed" style="font-family: 'Lato', sans-serif">
           The safety and wellbeing of children and young people is central to all Youth Safaris
           programs.<br />
           We are committed to:
@@ -39,7 +39,7 @@
 
       <!-- Quote -->
       <p
-        class="text-center font-bold text-[#111827] leading-tight max-w-3xl mx-auto"
+        class="text-center font-bold text-charcoal-900 leading-tight max-w-3xl mx-auto"
         style="font-family: 'Playfair Display', serif; font-size: clamp(1.2rem, 2.5vw, 1.6rem)"
       >
         All facilitators, Village Circle members, volunteers, and partners are expected to follow

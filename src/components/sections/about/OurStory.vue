@@ -16,7 +16,7 @@
           </h2>
           <div class="flex flex-col gap-4">
             <p
-              class="text-[#404040] text-sm leading-relaxed"
+              class="text-neutral-700 text-sm leading-relaxed"
               style="font-family: 'Lato', sans-serif"
             >
               Youth Safaris emerged from years of working closely with young people and families and
@@ -24,7 +24,7 @@
               readiness.
             </p>
             <p
-              class="text-[#404040] text-sm leading-relaxed"
+              class="text-neutral-700 text-sm leading-relaxed"
               style="font-family: 'Lato', sans-serif"
             >
               We saw that many young people move through education without time to pause, reflect,
@@ -32,7 +32,7 @@
               landscapes, cultures, and stories that naturally invite reflection and learning.
             </p>
             <p
-              class="text-[#404040] text-sm leading-relaxed"
+              class="text-neutral-700 text-sm leading-relaxed"
               style="font-family: 'Lato', sans-serif"
             >
               Youth Safaris was created to bridge this gap, combining travel, mentorship, and

@@ -4,12 +4,12 @@
       <!-- Title -->
       <div class="text-center mb-12">
         <h2
-          class="font-bold text-[#111827] mb-4"
+          class="font-bold text-charcoal-900 mb-4"
           style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3.5rem)"
         >
           Frequently <span style="color: #c94e00">Asked</span> Questions
         </h2>
-        <p class="text-[#525252] text-sm" style="font-family: 'Lato', sans-serif">
+        <p class="text-neutral-600 text-sm" style="font-family: 'Lato', sans-serif">
           If there are any questions you want to ask. We will answer all your questions.
         </p>
       </div>
@@ -28,7 +28,7 @@
             @click="toggle(index)"
           >
             <span
-              class="text-[#111827] font-bold text-base sm:text-lg leading-snug"
+              class="text-charcoal-900 font-bold text-base sm:text-lg leading-snug"
               style="font-family: 'Lato', sans-serif"
             >
               {{ faq.question }}
@@ -46,7 +46,7 @@
           <transition name="accordion">
             <div v-if="activeIndex === index" class="px-6 pb-6">
               <p
-                class="text-[#525252] text-sm leading-relaxed"
+                class="text-neutral-600 text-sm leading-relaxed"
                 style="font-family: 'Lato', sans-serif"
               >
                 {{ faq.answer }}

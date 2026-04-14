@@ -37,7 +37,7 @@
                 weight="regular"
                 class="shrink-0"
               />
-              <span class="text-[#404040] text-base" style="font-family: 'Lato', sans-serif">
+              <span class="text-neutral-700 text-base" style="font-family: 'Lato', sans-serif">
                 {{ value.label }}
               </span>
             </li>
@@ -62,11 +62,17 @@
       <div class="flex flex-col gap-6">
         <!-- Description text -->
         <div class="flex flex-col gap-4">
-          <p class="text-[#404040] text-sm leading-relaxed" style="font-family: 'Lato', sans-serif">
+          <p
+            class="text-neutral-700 text-sm leading-relaxed"
+            style="font-family: 'Lato', sans-serif"
+          >
             Our travel experiences are not tourism for entertainment alone. They are guided journeys
             designed to deepen understanding — of self, others, and the environment.
           </p>
-          <p class="text-[#404040] text-sm leading-relaxed" style="font-family: 'Lato', sans-serif">
+          <p
+            class="text-neutral-700 text-sm leading-relaxed"
+            style="font-family: 'Lato', sans-serif"
+          >
             Through wildlife safaris, mountain trekking, and cultural engagement, participants are
             invited to slow down, observe, and reflect. Learning emerges naturally from experience,
             not from lectures.
